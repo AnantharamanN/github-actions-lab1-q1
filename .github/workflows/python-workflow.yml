@@ -12,7 +12,7 @@ jobs:
       uses: actions/upload-artifact@v7
       with:
         name: requirements-txt
-        path: requirements.txt
+        path: ./requirements.txt
 
     - name: Set up Python 3.11
       uses: actions/setup-python@v5
